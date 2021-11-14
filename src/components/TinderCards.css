@@ -1,0 +1,49 @@
+.card {
+  position: relative; /*Relative to its normal position not the view port.*/
+  background-color: white;
+  width: 400px;
+  padding: 20px;
+  height: 40vh;
+  max-width: 85vw;
+  box-shadow: 0px 18px 53px 0px rgba(0, 0, 0, 0.3);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+/* .parent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 50vh;
+} */
+/* .tinderCards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 50vh;
+} */
+
+.tinderCards_cardContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 10vh;
+}
+
+.swipe {
+  /**This is a class name given to each tinder card. */
+  position: absolute;
+}
+/* .cardContent {
+  width: 100%;
+  height: 100%;
+} */
+
+.card h3 {
+  position: absolute;
+  bottom: 0;
+  margin: 10px;
+  color: white;
+}
