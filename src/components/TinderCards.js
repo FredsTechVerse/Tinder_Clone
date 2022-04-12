@@ -13,6 +13,8 @@ useEffect(()=>{
     const fetchData= async () =>{
  const req= await axios.get('tinder/cards');
 
+ console.log(req);
+
  setPeople(req.data);
     }
 fetchData()
