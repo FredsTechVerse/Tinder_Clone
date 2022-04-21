@@ -14,12 +14,7 @@ function SwipeButtons() {
         <IconButton className="swipeButtons__repeat">
           <ReplayIcon />
         </IconButton>
-        <IconButton
-          onClick={() => {
-            window.location = "https://google.com";
-          }}
-          className="swipeButtons__left"
-        >
+        <IconButton className="swipeButtons__left">
           <KeyboardArrowLeft />
         </IconButton>
         <IconButton className="swipeButtons__star">
